@@ -5,7 +5,8 @@
  ----------------------------------------------------------------------------
  
  Browse to: https://stetsonia.github.io/
-
+ mkdocs gh-deploy --force
+ 
  ----------------------------------------------------------------------------
  
  # Create virtual environment in current directory
