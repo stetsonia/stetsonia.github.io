@@ -1,6 +1,12 @@
 
  https://squidfunk.github.io/mkdocs-material/getting-started/
  https://squidfunk.github.io/mkdocs-material/customization/ 
+
+ ----------------------------------------------------------------------------
+ 
+ Browse to: https://stetsonia.github.io/
+
+ ----------------------------------------------------------------------------
  
  # Create virtual environment in current directory
  f:
