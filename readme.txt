@@ -69,15 +69,17 @@
  The site can be hosted on GitHub Pages, GitLab Pages, a CDN of your choice or your private web space.
 
  # Github Pages 
- https://github.com/stetsonia/my-docs.git
-
+ https://pages.github.com/
+ 
  f:\mkdocs
  git init
  git add --all
  git commit -m "Initial commit"
  git branch -M main
- git remote add origin https://github.com/stetsonia/my-docs.git
+ git remote add origin https://github.com/stetsonia/stetsonia.github.io.git
  git push -u origin main
+ 
+ https://stetsonia.github.io/
  
  -----------------
  
