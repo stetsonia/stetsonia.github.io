@@ -2,6 +2,11 @@ site_name: My Docs
 
 theme:
  name: material
+ # The structure in the overrides directory must mirror the directory structure of the original theme, 
+ # as any file in the overrides directory will replace the file with the same name which is part of the original theme. 
+ # Besides, further assets may also be put in the overrides directory: 
+ custom_dir: overrides
+ 
  palette: 
 
     # Palette toggle for dark mode
@@ -51,3 +56,11 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
+extra_css:
+  - stylesheets/extra.css
+  
+extra_javascript:
+  - javascripts/extra.js
+  
+  

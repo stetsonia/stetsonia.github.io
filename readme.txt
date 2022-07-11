@@ -1,5 +1,6 @@
 
  https://squidfunk.github.io/mkdocs-material/getting-started/
+ https://squidfunk.github.io/mkdocs-material/customization/ 
  
  # Create virtual environment in current directory
  f:
@@ -35,7 +36,7 @@
  mkdocs serve
  
  # If you're only interested in the current page, the --dirtyreload flag will make rebuilds much faster:
- mmkdocs serve --dirtyreload
+ mkdocs serve --dirtyreload
  
  Browse http://127.0.0.1:8000/
  
@@ -71,6 +72,8 @@
  # Github Pages 
  https://pages.github.com/
  
+ # Create in your github account a new repository: username.github.io
+ 
  f:\mkdocs
  git init
  git add --all
@@ -79,7 +82,13 @@
  git remote add origin https://github.com/stetsonia/stetsonia.github.io.git
  git push -u origin main
  
- https://stetsonia.github.io/
+ # Goto settings / Pages / Source and select 'gh-pages' as your branch
+ 
+ Browse to: https://stetsonia.github.io/
+ 
+ # If you prefer to deploy your project documentation manually, you can just invoke the 
+ # following command from the directory containing the mkdocs.yml file:
+ mkdocs gh-deploy --force
  
  -----------------
  
