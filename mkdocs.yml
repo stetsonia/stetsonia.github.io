@@ -5,7 +5,7 @@ theme:
  # The structure in the overrides directory must mirror the directory structure of the original theme, 
  # as any file in the overrides directory will replace the file with the same name which is part of the original theme. 
  # Besides, further assets may also be put in the overrides directory: 
- custom_dir: overrides
+ #custom_dir: overrides
  
  palette: 
 
