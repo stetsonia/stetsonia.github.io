@@ -8,11 +8,11 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
-* `mkdocs -h` - Print help message and exit.
-* `mkdocs -h` - Print help message and exit.
-* `mkdocs -h` - Print help message and exit.
-* `mkdocs -h` - Print help message and exit.
-* `mkdocs -h` - Print help message and exit.
+* `mkdocs -h1` - Print help message and exit.
+* `mkdocs -h2` - Print help message and exit.
+* `mkdocs -h3` - Print help message and exit.
+* `mkdocs -h4` - Print help message and exit.
+* `mkdocs -h5` - Print help message and exit.
 
 ## Project layout
 
